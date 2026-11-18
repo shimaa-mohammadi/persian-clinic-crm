@@ -1,0 +1,12 @@
+# Never commit databases, secrets or local junk
+data/
+*.db
+*.db-wal
+*.db-shm
+secret.key
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
